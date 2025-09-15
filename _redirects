@@ -1,6 +1,11 @@
-# Redirect all paths to the Streamlit Cloud app (update the target URL below)
-# Netlify will preserve path (via :splat) and query string by default.
-/* https://plotivy.streamlit.app/:splat 301!
+# Proxy all paths to the Streamlit Cloud app and keep plotivy.app in the URL
 
-# Example once you know your URL:
-# /* https://plotivy.streamlit.app/:splat 301!
+# Netlify will preserve the path (:splat) and query string. The `200!` forces
+
+# the proxy even if a matching static file exists.
+
+/\* https://plotivy.streamlit.app/:splat 200!
+
+# If you prefer a hard redirect (changes the address bar to streamlit.app), use:
+
+# /\* https://plotivy.streamlit.app/:splat 301!
