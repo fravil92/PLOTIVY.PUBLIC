@@ -1,0 +1,6 @@
+# Redirect all paths to the Streamlit Cloud app (update the target URL below)
+# Netlify will preserve path (via :splat) and query string by default.
+/* https://plotivy.streamlit.app/:splat 301!
+
+# Example once you know your URL:
+# /* https://plotivy.streamlit.app/:splat 301!
