@@ -95,9 +95,6 @@ We welcome contributions to make Plotivy more useful for the scientific communit
 - Code contributions
 - User feedback and suggestions
 
-## 📄 License
-
-This project is open source. See the LICENSE file for details.
 
 ## 👨‍💻 About
 
